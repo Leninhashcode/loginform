@@ -16,7 +16,7 @@ app.post('/login',(req,res)=>{
     console.log(data)
 })
 app.listen(port,()=> {
-    console.log("sever was running on port:3000")
+    console.log("sever was running in port:3000")
 })
 // login form 
 //done
