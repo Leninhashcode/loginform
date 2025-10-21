@@ -11,12 +11,12 @@ app.get('/',(req,res)=> {
 })
 app.post('/login',(req,res)=>{
     let data = req.body.username
-    res.render('welcome', {username:data})
+    res.render('welcome', {username:dataAS})
    
     console.log(data)
 })
 app.listen(port,()=> {
-    console.log("sever was running in port:3000")
+    console.log("sever was running on port:3000")
 })
 // login form 
 //done
